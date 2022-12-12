@@ -6,6 +6,7 @@
     --brand-color-blue: #2196f3;
     --brand-color-dark: #2f303a;
     --brand-color-dark-transparent: #2f303a66;
+    --brand-color-grey-icon: #afb1b8;
     --footer-social-icon-bg: rgba(255, 255, 255, 0.1);
     --border-radius-default: 4px;
 }
@@ -348,6 +349,7 @@ ul {
     gap: 10px;
     justify-content: center;
     padding-bottom: 30px;
+    color: var(--brand-color-grey-icon);
 }
 
 .social-icon {
