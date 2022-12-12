@@ -5,6 +5,7 @@
     --brand-color-white: #fff;
     --brand-color-blue: #2196f3;
     --brand-color-dark: #2f303a;
+    --brand-color-dark-transparent: #2f303a66;
     --border-radius-default: 4px;
 }
 * {
@@ -19,7 +20,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color-black);
 }
-/*hej hej*/
+
 .container {
     display: flex;
     flex-direction: column;
@@ -107,18 +108,40 @@ ul {
     color: var(--brand-color-blue);
 }
 
-.tel {
-    padding-left: 50px;
+.mail {
+    padding-right: 50px;
 }
 
+.contact-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    --color4: currentColor;
+}
+
+.smartphone-icon {
+    vertical-align: text-top;
+}
+
+.hero {
+    background-color: var(--brand-color-dark);
+}
 .main-board {
     display: flex;
     flex-direction: column;
-    background-color: var(--brand-color-dark);
+    max-width: 1600px;
     align-items: center;
     text-align: center;
     align-content: center;
     padding: 200px 0;
+    margin: 0 auto;
+    background-image: url(../images/main/hero-bg.jpg),
+        linear-gradient(
+            90deg,
+            rgba(47, 48, 58, 0.4) 0%,
+            rgba(47, 48, 58, 0.4) 0%
+        );
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .main-claim {
     font-weight: 900;
@@ -284,7 +307,29 @@ ul {
     color: var(--brand-color-grey);
     margin-top: 9px;
 }
+/* social icons */
 
+.social-icon-svg {
+    --color3: currentColor;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    display: block;
+    padding: 12px;
+    font-size: 0;
+    border-radius: 50%;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    background-color: var(--theme-color);
+    color: var(--white);
+}
 /* 
 
 
