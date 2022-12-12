@@ -6,6 +6,7 @@
     --brand-color-blue: #2196f3;
     --brand-color-dark: #2f303a;
     --brand-color-dark-transparent: #2f303a66;
+    --footer-social-icon-bg: rgba(255, 255, 255, 0.1);
     --border-radius-default: 4px;
 }
 * {
@@ -199,6 +200,12 @@ ul {
     letter-spacing: 0.03em;
     color: var(--brand-color-grey);
 }
+.article-icon-box {
+    padding: 25px 102.34px;
+    margin-bottom: 30px;
+    background-color: var(--brand-color-lightgrey);
+    border-radius: var(--border-radius);
+}
 
 .section-title-what {
     font-weight: 700;
@@ -238,6 +245,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-grey);
+    padding-bottom: 16px;
 }
 
 .team-container {
@@ -260,8 +268,6 @@ ul {
     flex-direction: column;
 
     width: 270px;
-    height: 368px;
-    left: 215px;
 
     background: var(--brand-color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -271,13 +277,19 @@ ul {
 .footer-container {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     padding: 60px 0;
     background-color: var(--brand-color-dark);
+    gap: 70px;
 }
 .footer-section {
     display: flex;
-    flex-direction: column;
     width: 1200px;
+}
+
+.footer-contact-box {
+    display: flex;
+    flex-direction: column;
 }
 .logo-footer {
     font-family: "Raleway";
@@ -307,6 +319,24 @@ ul {
     color: var(--brand-color-grey);
     margin-top: 9px;
 }
+
+.footer-joinus-box {
+    padding-top: 12px;
+    padding-left: 70px;
+}
+
+.footer-joinus-heading {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--brand-color-white);
+}
+
+.footer-social-icon {
+    background-color: var(--footer-social-icon-bg);
+    color: var(--brand-color-white);
+}
+
 /* social icons */
 
 .social-icon-svg {
@@ -316,6 +346,8 @@ ul {
 .social-icons {
     display: flex;
     gap: 10px;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .social-icon {
@@ -327,8 +359,8 @@ ul {
 
 .social-icon:hover,
 .social-icon:focus {
-    background-color: var(--theme-color);
-    color: var(--white);
+    background-color: var(--brand-color-blue);
+    color: var(--brand-color-white);
 }
 /* 
 
@@ -351,7 +383,7 @@ portolio.html
 }
 
 .portfolio-button-filter {
-    background: var(--brand-color-lightgrey);
+    background-color: var(--brand-color-lightgrey);
     border-radius: 4px;
     border-color: var(--brand-color-lightgrey);
 
@@ -373,7 +405,7 @@ portolio.html
     border-radius: 4px;
 }
 .portfolio-button-filter:active {
-    background: var(--brand-color-blue);
+    background-color: var(--brand-color-blue);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -405,7 +437,7 @@ portolio.html
 .card-item {
     width: 370px;
     height: 404px;
-    background: var(--brand-color-white);
+    background-color: var(--brand-color-white);
     border: 1px solid #eeeeee;
 }
 
