@@ -349,7 +349,7 @@ ul {
     gap: 10px;
     justify-content: center;
     padding-bottom: 30px;
-    color: var(--brand-color-grey-icon);
+    fill: var(--brand-color-grey-icon);
 }
 
 .social-icon {
