@@ -15,39 +15,61 @@
     </head>
     <body>
         <div class="container">
-            <header class="header-section">
-                <a href="#" class="logo-header">
-                    <h3 class="logo-style">
-                        <span class="logo-color">Web</span>Studio
-                    </h3></a
-                >
-                <nav>
-                    <ul class="nav-list">
-                        <li>
-                            <a href="#agencja" class="nav-links agencja"
-                                >Agencja</a
-                            >
-                        </li>
-                        <li>
-                            <a href="portfolio.html" class="nav-links portfolio"
-                                >Portfolio</a
-                            >
-                        </li>
-                        <li>
-                            <a href="#kontakt" class="nav-links kontakt"
-                                >Kontakt</a
-                            >
-                        </li>
-                    </ul>
-                </nav>
-                <a
-                    href="mail:info@devstudio.com"
-                    class="contact-link-header mail"
-                    >info@devstudio.com</a
-                >
-                <a href="tel:+48111111111" class="contact-link-header tel"
-                    >+48 111 111 111</a
-                >
+            <header class="header-line">
+                <div class="header-section">
+                    <nav class="header-left">
+                        <a href="index.html" class="logo-header">
+                            <h3 class="logo-style">
+                                <span class="logo-color">Web</span>Studio
+                            </h3></a
+                        >
+                        <ul class="nav-list">
+                            <li>
+                                <a href="#agencja" class="nav-links agencja"
+                                    >Agencja</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="portfolio.html"
+                                    class="nav-links portfolio"
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#kontakt" class="nav-links kontakt"
+                                    >Kontakt</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-right">
+                        <svg width="16" height="12" class="contact-icon">
+                            <use
+                                href="images/main/icons.svg#icon-envelope"
+                            ></use>
+                        </svg>
+                        <a
+                            href="mail:info@devstudio.com"
+                            class="contact-link-header mail"
+                            >info@devstudio.com</a
+                        >
+                        <svg
+                            width="10"
+                            height="16"
+                            class="contact-icon smartphone-icon"
+                        >
+                            <use
+                                href="images/main/icons.svg#icon-smartphone"
+                            ></use>
+                        </svg>
+                        <a
+                            href="tel:+48111111111"
+                            class="contact-link-header tel"
+                            >+48 111 111 111</a
+                        >
+                    </div>
+                </div>
             </header>
             <main>
                 <ul class="portfolio-filter">
@@ -213,23 +235,94 @@
             </main>
             <footer class="footer-container">
                 <div class="footer-section">
-                    <a href="#" class="logo-footer"
-                        ><h3 class="logo-style">
-                            <span class="logo-color">Web</span>Studio
-                        </h3>
-                    </a>
-                    <address class="address-text">
-                        m. Warszawa, Aleje Jerozolimskie 21
-                    </address>
+                    <div class="footer-contact-box">
+                        <a href="#" class="logo-footer"
+                            ><h3 class="logo-style">
+                                <span class="logo-color">Web</span>Studio
+                            </h3>
+                        </a>
+                        <address class="address-text">
+                            m. Warszawa, Aleje Jerozolimskie 21
+                        </address>
 
-                    <a
-                        href="mail:info@devstudio.com"
-                        class="contact-link-footer"
-                        >info@devstudio.com</a
-                    >
-                    <a href="tel:+48111111111" class="contact-link-footer"
-                        >+48 111 111 111</a
-                    >
+                        <a
+                            href="mail:info@devstudio.com"
+                            class="contact-link-footer"
+                            >info@devstudio.com</a
+                        >
+                        <a href="tel:+48111111111" class="contact-link-footer"
+                            >+48 111 111 111</a
+                        >
+                    </div>
+                    <div class="footer-joinus-box">
+                        <h3 class="footer-joinus-heading">Dołącz do nas</h3>
+                        <ul class="footer-social-icons social-icons">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="footer-social-icon social-icon"
+                                >
+                                    <svg
+                                        class="social-icon-svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="./images/main/icons.svg#icon-instagram-2"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="footer-social-icon social-icon"
+                                >
+                                    <svg
+                                        class="social-icon-svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="./images/main/icons.svg#icon-twitter-1"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="footer-social-icon social-icon"
+                                >
+                                    <svg
+                                        class="social-icon-svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="./images/main/icons.svg#icon-facebook-1"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="footer-social-icon social-icon"
+                                >
+                                    <svg
+                                        class="social-icon-svg"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <use
+                                            href="./images/main/icons.svg#icon-linkedin-1"
+                                        ></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </footer>
         </div>
