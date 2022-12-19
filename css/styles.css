@@ -121,6 +121,10 @@ ul {
     --color4: currentColor;
 }
 
+.contact-icon:hover,
+.contact-icon:focus {
+    color: var(--brand-color-blue);
+}
 .smartphone-icon {
     vertical-align: text-top;
 }
@@ -291,8 +295,9 @@ ul {
 }
 
 .clients-icon-svg {
-    --color2: currentColor;
-    --color3: currentColor;
+    /* --color2: currentColor;
+    --color3: currentColor; */
+    fill: currentColor;
 }
 
 .clients-icon {
