@@ -378,7 +378,8 @@ ul {
 
 .footer-social-icon {
     background-color: var(--footer-social-icon-bg);
-    color: var(--brand-color-white);
+    /* color: var(--brand-color-white); */
+    fill: var(--brand-color-white);
 }
 
 /* social icons */
@@ -402,7 +403,10 @@ ul {
     border-radius: 50%;
     color: currentColor;
 }
-
+/* .social-icon-svg:hover,
+.social-icon-svg:focus {
+    fill: var(--brand-color-white);
+} */
 .social-icon:hover,
 .social-icon:focus {
     background-color: var(--brand-color-blue);
