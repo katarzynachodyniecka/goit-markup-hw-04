@@ -379,7 +379,8 @@ ul {
 /* social icons */
 
 .social-icon-svg {
-    --color3: currentColor;
+    /* --color3: currentColor; */
+    color: var(--brand-color-grey-icon);
 }
 
 .social-icons {
@@ -387,7 +388,7 @@ ul {
     gap: 10px;
     justify-content: center;
     padding-bottom: 30px;
-    fill: var(--brand-color-grey-icon);
+    color: var(--brand-color-grey-icon);
 }
 
 .social-icon {
