@@ -295,8 +295,8 @@ ul {
 }
 
 .clients-icon-svg {
-    /* --color2: currentColor;
-    --color3: currentColor; */
+    --color2: currentColor;
+    --color3: currentColor;
     fill: currentColor;
 }
 
@@ -384,8 +384,7 @@ ul {
 /* social icons */
 
 .social-icon-svg {
-    /* --color3: currentColor; */
-    color: var(--brand-color-grey-icon);
+    fill: currentColor;
 }
 
 .social-icons {
