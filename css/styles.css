@@ -410,6 +410,13 @@ ul {
 .social-icon:hover,
 .social-icon:focus {
     background-color: var(--brand-color-blue);
+}
+/* .social-icon:hover,
+.social-icon:focus {
+    background-color: var(--brand-color-blue);
+    fill: var(--brand-color-white);
+} */
+.social-icon:hover .social-icon-svg {
     fill: var(--brand-color-white);
 }
 /* 
