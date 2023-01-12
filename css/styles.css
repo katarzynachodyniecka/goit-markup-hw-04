@@ -1,3 +1,4 @@
+/* Deklaracja zmiennych globalnych */
 :root {
     --brand-color-black: #212121;
     --brand-color-grey: #757575;
@@ -378,16 +379,11 @@ ul {
 
 .footer-social-icon {
     background-color: var(--footer-social-icon-bg);
-    /* color: var(--brand-color-white); */
-    fill: var(--brand-color-white);
+
+    fill: var(--brand-color-grey-icon);
 }
 
 /* social icons */
-
-.social-icon-svg {
-    /* --color3: var(--icons-inactive); */
-    fill: currentColor;
-}
 
 .social-icons {
     display: flex;
@@ -401,25 +397,21 @@ ul {
     padding: 12px;
     font-size: 0;
     border-radius: 50%;
-    color: currentColor;
 }
-/* .social-icon-svg:hover,
-.social-icon-svg:focus {
-    fill: var(--brand-color-white);
-} */
+.social-icon-svg {
+    fill: var(--brand-color-grey-icon);
+}
+
 .social-icon:hover,
 .social-icon:focus {
     background-color: var(--brand-color-blue);
-}
-/* .social-icon:hover,
-.social-icon:focus {
-    background-color: var(--brand-color-blue);
     fill: var(--brand-color-white);
-} */
+}
 .social-icon:hover .social-icon-svg {
     fill: var(--brand-color-white);
 }
-/* 
+
+/*
 
 
 
